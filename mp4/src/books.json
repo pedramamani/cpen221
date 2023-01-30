@@ -1,0 +1,15 @@
+{
+  "table_name": "books",
+  "table": [
+    {
+      "isbn": "0034521",
+      "book_title": "pride and prejudice",
+      "author": "jane austen"
+    },
+    {
+      "isbn": "1025438",
+      "book_title": "to kill a mockingbird",
+      "author": "harper lee"
+    }
+  ]
+}
