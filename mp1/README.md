@@ -83,7 +83,7 @@ you will use to validate your implementation?**
   4. _To test that the JSD of a document pair is correct, simply test the JSD computed 
   from our algorithm, and compare it with the known value._
   
-  ######Our implementation:
+  ###### Our implementation:
   1. The initial first test case was out of scope and unnecessary; restructuring and 
   reconverting a document to a String is not relevant to the implementation of the 
   methods. Finding the most similar documents requires 
