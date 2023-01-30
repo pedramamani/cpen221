@@ -16,7 +16,7 @@ avoid having to perform redundant operations.**
    will have an `int` total word count of the document and a `StringBuilder` object
    where the entire document will be stored._ 
 
-   ######Our implementation:
+   ###### Our implementation:
    The `language` of the document was added as an attribute since the Azure Text 
    Analytics services required that a language be specified for each document 
    and it made sense to include this as an attribute. Also, the `overallSentiment` 
@@ -35,7 +35,7 @@ avoid having to perform redundant operations.**
   be initialized. And the `Scanner` method will be used to store the text as a 
   `StringBuilder` object._
   
-  ######Our implementation:
+  ###### Our implementation:
   The `id` and `docURL` and `language` attributes are initialized. The `decomposeText()`
   method is run to create the `HashMap` of words to their counts and a `TextCollection` 
   of text chunks. The document's word count is also computed and assigned to the 
@@ -58,7 +58,7 @@ a high-level description of your algorithm in English.**
   Then, create an `ArrayList` of document pairs and compute JSD for each pair. Sort 
   the document pairs and select the one with lowest JSD as the most similar pair._
   
-  ######Our implementation:
+  ###### Our implementation:
   The major difference is in our algorithm for calculating the JSD for a document 
   pair. To do so, we create a local copy of the other document's `wordMap`; looping 
   through the keys of the other document, calculate the probability of word appearing 
