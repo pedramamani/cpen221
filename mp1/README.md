@@ -1,6 +1,6 @@
-#CPEN 221 | Fall 2018 | MP1
-#Design Document
-####**Team Sentiment Analyzers:**
+# CPEN 221 | Fall 2018 | MP1
+# Design Document
+#### **Team Sentiment Analyzers:**
 
 - Pedram Amani - 73993008
 - Rehan Hafeez - 47057666
